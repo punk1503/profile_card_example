@@ -14,6 +14,8 @@
     color: rgb(255,255,255);
     font-family: 'Poppins', sans-serif;
     font-size: medium;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .card_body {
@@ -42,6 +44,7 @@
     border-radius: 25px;
     display: inline;
     padding: 5px;
+    font-weight: 600;
 }
 
 .card_img {
