@@ -4,15 +4,16 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <title>Test Page</title>
 </head>
 <body style="background-color: darkslategray;">
     <div class="card">
         <div class="card_header">
-            <img class="card_img" src="https://placekitten.com/300/300">
-            <div style="position: absolute; bottom: 0px; width: 300px; height: 35px; background: linear-gradient(rgba(33,37,42, 0 ), rgb(33,37,42) );">
+            <img class="card_img" src="https://placekitten.com/350/350">
+            <div style="position: absolute; bottom: 0px; height: 35px; background: linear-gradient(rgba(33,37,42, 0 ), rgba(33,37,42, 0)); width: 100%;">
                 <p style="font-size: 25px; position: absolute; bottom: -20px; left: 15px;">Vasya, 17</p>
             </div>
         </div>  
@@ -28,8 +29,8 @@
         </div>
     </div>
     <div style="margin-top: 2%; margin-left: auto; margin-right: auto; width: 300px; justify-content: space-between; display: flex;">
-        <div class="button" style="background-color: #4ef18f; width: 75px;">Like</div>
-        <div class="button" style="background-color: #f14e4e; width: 75px;">Dis</div>
+        <div class="button" style="background-color: #4ef18f; width: 75px;" onclick="like();">Like</div>
+        <div class="button" style="background-color: #f14e4e; width: 75px;" onclick="dislike();">Dis</div>
     </div>
 </body>
 </html>
