@@ -1,0 +1,57 @@
+.card{
+    border-radius: 20px;
+    width: 400px;
+    height: 575px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-name {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+    color: rgb(255,255,255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.card-body {
+    padding: 4%;
+    background-color: rgb(33,37,42);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto;
+    height: 115px;
+    display: block;
+}
+
+.card-body * {
+    color: rgb(255,255,255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-info {
+    font-size: 15px;
+}
+
+.language {
+    border: none;
+    color: white;
+    background-color: #2196F3;
+    border-radius: 25px;
+    display: inline;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.card-img {
+    border-radius: 20px 20px 0 0;
+    display: block;
+}

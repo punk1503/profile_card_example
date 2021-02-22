@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./buttons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -11,26 +12,19 @@
 </head>
 <body style="background-color: darkslategray;">
     <div class="card">
-        <div class="card_header">
-            <img class="card_img" src="https://placekitten.com/350/350">
-            <div style="position: absolute; bottom: 0px; height: 35px; background: linear-gradient(rgba(33,37,42, 0 ), rgba(33,37,42, 0)); width: 100%;">
-                <p style="font-size: 25px; position: absolute; bottom: -20px; left: 15px;">Vasya, 17</p>
-            </div>
+        <div class="card-header">
+            <img class="card-img" src="https://placekitten.com/400/450">
+            <p class="card-name">Vasya, 17</p>
         </div>  
-        <div class="card_body">
+        <div class="card-body">
             <div class="language">Python</div>
             <div class="language" style="background-color: blueviolet;">C#</div>
             <div class="language" style="background-color: yellow; color: black;">JS</div>
-            <p class="card_info">
+            <p class="card-info">
                 Young gentleman is looking for an attractive lady for a joint
                 coding in the worst language in the world.
             </p>
-            <p style="vertical-align: bottom; font-size: small;">Saratov, 835 km from you</p>
         </div>
-    </div>
-    <div style="margin-top: 2%; margin-left: auto; margin-right: auto; width: 300px; justify-content: space-between; display: flex;">
-        <div class="button" style="background-color: #4ef18f; width: 75px;" onclick="like();">Like</div>
-        <div class="button" style="background-color: #f14e4e; width: 75px;" onclick="dislike();">Dis</div>
     </div>
 </body>
 </html>
