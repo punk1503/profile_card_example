@@ -1,15 +1,18 @@
-let code = false;
+let show_bio = false;
 function switch_card()
 {
     console.log('clicked');
-    profile_img = document.getElementsByClassName('card-img')[0];
-    if(code)
+    let profile_img = document.getElementsByClassName('card-img')[0];
+    let code_button = document.getElementsByClassName('button code')[0];
+    if(show_bio)
     {
         profile_img.src = 'https://placekitten.com/400/450';
+        code_button.innerHTML = 'Code';
     }
     else
     {
         profile_img.src = "./carbon.png";
+        code_button.innerHTML = 'Bio';
     }
-    code = !code;
+    show_bio = !show_bio;
 }
