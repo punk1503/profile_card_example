@@ -6,7 +6,7 @@ function switch_card()
     let code_button = document.getElementsByClassName('button code')[0];
     if(show_bio)
     {
-        profile_img.src = 'https://placekitten.com/400/450';
+        profile_img.src = 'https://placekitten.com/400/460';
         code_button.innerHTML = 'Code';
     }
     else
